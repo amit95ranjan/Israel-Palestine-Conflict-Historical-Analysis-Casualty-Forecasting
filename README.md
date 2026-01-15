@@ -53,6 +53,13 @@ The project implemented multiple models to predict casualty figures:
 * [cite_start]**Architecture:** Implemented a Sequential LSTM model with Dense layers using TensorFlow/Keras[cite: 746].
 * [cite_start]**Training:** Trained over 50 epochs to capture long-term dependencies in the casualty time-series data[cite: 748].
 
+## Model summary
+- Short description: A model used for historical analysis and demonstration purposes. This repository provides reproducible analysis and a demo; it is not intended for automated high-stakes decision-making.
+
+## Primary intended use
+- Intended: research, exploratory analysis, stakeholder reporting, educational demonstration.
+- Not intended: automated operational decisions that materially affect individuals or policy without human oversight.
+
 ## 🚀 Future Scope
 * **Feature Expansion:** Incorporate geopolitical events or news sentiment data to improve prediction accuracy.
 * **Model Tuning:** Perform Hyperparameter tuning on the LSTM and Random Forest models to reduce RMSE.
